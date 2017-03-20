@@ -1,0 +1,30 @@
+{
+    "name": "crisnao2/filesystem",
+    "description": "Este pacote tem como foco, oferecer classes que facilitem o trabalho com o sistema de arquivos",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristiano Soares",
+            "email": "crisnao2@yahoo.com.br",
+            "homepage": "http://comerciobr.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crisnao2\\FileSystem\\": "src/Crisnao2/FileSystem/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Crisnao2\\FileSystem\\": "tests/Crisnao2/FileSystem/"
+        }
+    }
+}
